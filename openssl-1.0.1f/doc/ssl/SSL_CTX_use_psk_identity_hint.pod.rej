@@ -1,0 +1,22 @@
+--- doc/ssl/SSL_CTX_use_psk_identity_hint.pod.manfix 2013-09-12 11:17:42.133092003 +0200
++++ doc/ssl/SSL_CTX_use_psk_identity_hint.pod    2013-09-12 11:17:42.168092770 +0200
+@@ -96,7 +96,7 @@ data to B<psk> and return the length of
+ connection will fail with decryption_error before it will be finished
+ completely.
+ 
+-=item 0
++=item C<0>
+ 
+ PSK identity was not found. An "unknown_psk_identity" alert message
+ will be sent and the connection setup fails.
+--- doc/ssl/SSL_CTX_use_psk_identity_hint.pod.manfix 2013-09-12 11:17:42.133092003 +0200
++++ doc/ssl/SSL_CTX_use_psk_identity_hint.pod    2013-09-12 11:17:42.168092770 +0200
+@@ -96,7 +96,7 @@ data to B<psk> and return the length of
+ connection will fail with decryption_error before it will be finished
+ completely.
+ 
+-=item 0
++=item C<0>
+ 
+ PSK identity was not found. An "unknown_psk_identity" alert message
+ will be sent and the connection setup fails.

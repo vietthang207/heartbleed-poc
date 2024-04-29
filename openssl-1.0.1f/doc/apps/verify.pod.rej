@@ -1,0 +1,46 @@
+--- doc/apps/verify.pod.manfix   2013-02-11 16:26:04.000000000 +0100
++++ doc/apps/verify.pod  2013-09-12 11:25:13.994994992 +0200
+@@ -25,6 +25,7 @@ B<openssl> B<verify>
+ [B<-untrusted file>]
+ [B<-help>]
+ [B<-issuer_checks>]
++[B<-attime timestamp>]
+ [B<-verbose>]
+ [B<->]
+ [certificates]
+@@ -80,6 +81,12 @@ rejected. The presence of rejection mess
+ anything is wrong; during the normal verification process, several
+ rejections may take place.
+ 
++=item B<-attime timestamp>
++
++Perform validation checks using the time specified by B<timestamp> and not
++the current system time. B<timestamp> is the number of seconds since
++01.01.1970 (UNIX time).
++
+ =item B<-policy arg>
+ 
+ Enable policy processing and add B<arg> to the user-initial-policy-set (see
+--- doc/apps/verify.pod.manfix   2013-02-11 16:26:04.000000000 +0100
++++ doc/apps/verify.pod  2013-09-12 11:25:13.994994992 +0200
+@@ -25,6 +25,7 @@ B<openssl> B<verify>
+ [B<-untrusted file>]
+ [B<-help>]
+ [B<-issuer_checks>]
++[B<-attime timestamp>]
+ [B<-verbose>]
+ [B<->]
+ [certificates]
+@@ -80,6 +81,12 @@ rejected. The presence of rejection mess
+ anything is wrong; during the normal verification process, several
+ rejections may take place.
+ 
++=item B<-attime timestamp>
++
++Perform validation checks using the time specified by B<timestamp> and not
++the current system time. B<timestamp> is the number of seconds since
++01.01.1970 (UNIX time).
++
+ =item B<-policy arg>
+ 
+ Enable policy processing and add B<arg> to the user-initial-policy-set (see

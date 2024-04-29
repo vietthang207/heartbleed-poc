@@ -1,0 +1,34 @@
+--- doc/ssl/SSL_clear.pod.manfix 2013-02-11 16:02:48.000000000 +0100
++++ doc/ssl/SSL_clear.pod    2013-09-12 11:17:42.158092551 +0200
+@@ -56,12 +56,12 @@ The following return values can occur:
+ 
+ =over 4
+ 
+-=item 0
++=item C<0>
+ 
+ The SSL_clear() operation could not be performed. Check the error stack to
+ find out the reason.
+ 
+-=item 1
++=item C<1>
+ 
+ The SSL_clear() operation was successful.
+ 
+--- doc/ssl/SSL_clear.pod.manfix 2013-02-11 16:02:48.000000000 +0100
++++ doc/ssl/SSL_clear.pod    2013-09-12 11:17:42.158092551 +0200
+@@ -56,12 +56,12 @@ The following return values can occur:
+ 
+ =over 4
+ 
+-=item 0
++=item C<0>
+ 
+ The SSL_clear() operation could not be performed. Check the error stack to
+ find out the reason.
+ 
+-=item 1
++=item C<1>
+ 
+ The SSL_clear() operation was successful.
+ 

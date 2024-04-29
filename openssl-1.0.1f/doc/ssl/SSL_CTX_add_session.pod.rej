@@ -1,0 +1,36 @@
+--- doc/ssl/SSL_CTX_add_session.pod.manfix   2013-02-11 16:02:48.000000000 +0100
++++ doc/ssl/SSL_CTX_add_session.pod  2013-09-12 11:17:42.162092638 +0200
+@@ -52,13 +52,13 @@ The following values are returned by all
+ 
+ =over 4
+ 
+-=item 0
++=item C<0>
+ 
+  The operation failed. In case of the add operation, it was tried to add
+  the same (identical) session twice. In case of the remove operation, the
+  session was not found in the cache.
+ 
+-=item 1
++=item C<1>
+  
+  The operation succeeded.
+ 
+--- doc/ssl/SSL_CTX_add_session.pod.manfix   2013-02-11 16:02:48.000000000 +0100
++++ doc/ssl/SSL_CTX_add_session.pod  2013-09-12 11:17:42.162092638 +0200
+@@ -52,13 +52,13 @@ The following values are returned by all
+ 
+ =over 4
+ 
+-=item 0
++=item C<0>
+ 
+  The operation failed. In case of the add operation, it was tried to add
+  the same (identical) session twice. In case of the remove operation, the
+  session was not found in the cache.
+ 
+-=item 1
++=item C<1>
+  
+  The operation succeeded.
+ 
